@@ -25,7 +25,7 @@ public class TimeFilter implements Filter {
         System.out.println("time filter started");
         long start = new Date().getTime();
         filterChain.doFilter(servletRequest, servletResponse);
-        System.out.println("time filter 耗时:{}" + (new Date().getTime() - start));
+        System.out.println("time filter 耗时:" + (new Date().getTime() - start));
         System.out.println("time filter finished");
     }
 

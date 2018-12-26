@@ -1,5 +1,6 @@
 package controller;
 
+import com.lantianxiang.DemoApplication;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,7 +25,7 @@ import java.util.Date;
  * Create Time: 17:22
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = DemoApplication.class)
 public class UserControllerTest {
 
     @Autowired

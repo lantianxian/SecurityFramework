@@ -12,7 +12,7 @@ import java.util.Date;
  * Create Date: 2018/12/25
  * Create Time: 13:48
  **/
-@Component
+//@Component
 public class TimeFilter implements Filter {
 
     @Override

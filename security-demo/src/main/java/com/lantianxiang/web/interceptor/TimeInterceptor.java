@@ -15,7 +15,7 @@ import java.util.Date;
  * Create Date: 2018/12/25
  * Create Time: 13:55
  **/
-@Component
+//@Component
 public class TimeInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o){
